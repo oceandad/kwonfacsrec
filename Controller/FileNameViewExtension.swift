@@ -201,8 +201,9 @@ extension FileNameViewController: UITextFieldDelegate, UIPickerViewDelegate, UIP
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
-        FileNameViewController.textFieldDic[currActiveCase]?.text = userdata.recentListDict[currActiveCase]?[row]
+        if (userdata.recentListDict[currActiveCase]?.count)! > row {
+            FileNameViewController.textFieldDic[currActiveCase]?.text = userdata.recentListDict[currActiveCase]?[row]
+        }
         view.endEditing(true)
     }
 }

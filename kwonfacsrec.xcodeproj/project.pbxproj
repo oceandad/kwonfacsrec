@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		07B69EACEE5B05D69FE4C07E /* Pods_kwonfacsrec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F33BC597AF166CB71BAC9 /* Pods_kwonfacsrec.framework */; };
 		E0A17D3621C0D5A1007D8B50 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A17D3421C0D5A1007D8B50 /* Splash.storyboard */; };
+		E0A17D3821C0DF5A007D8B50 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A17D3721C0DF59007D8B50 /* Models.scnassets */; };
 		E0E4958521C0B31500AF6954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4958421C0B31500AF6954 /* AppDelegate.swift */; };
 		E0E4958721C0B31500AF6954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4958621C0B31500AF6954 /* ViewController.swift */; };
 		E0E4958A21C0B31500AF6954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E4958821C0B31500AF6954 /* Main.storyboard */; };
 		E0E4958C21C0B31600AF6954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E4958B21C0B31600AF6954 /* Assets.xcassets */; };
-		E0E4958F21C0B31600AF6954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E4958D21C0B31600AF6954 /* LaunchScreen.storyboard */; };
 		E0E495A421C0D15200AF6954 /* FaceOcclusionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4959D21C0D15200AF6954 /* FaceOcclusionOverlay.swift */; };
 		E0E495A521C0D15200AF6954 /* DefaultFaceMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4959E21C0D15200AF6954 /* DefaultFaceMask.swift */; };
 		E0E495A621C0D15200AF6954 /* BlendShapeCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4959F21C0D15200AF6954 /* BlendShapeCharacter.swift */; };
@@ -44,18 +44,19 @@
 		E0E495D421C0D1A600AF6954 /* JKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495C721C0D1A600AF6954 /* JKColor.swift */; };
 		E0E495D721C0D1B600AF6954 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495D521C0D1B600AF6954 /* UserData.swift */; };
 		E0E495D821C0D1B600AF6954 /* FaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495D621C0D1B600AF6954 /* FaceData.swift */; };
+		E0F2E03321C0DFB00089850F /* VideoTexturedFace.shader in Resources */ = {isa = PBXBuildFile; fileRef = E0F2E03221C0DFB00089850F /* VideoTexturedFace.shader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A45F33BC597AF166CB71BAC9 /* Pods_kwonfacsrec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kwonfacsrec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9ACC97F7B4CD048108A597A /* Pods-kwonfacsrec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kwonfacsrec.release.xcconfig"; path = "Pods/Target Support Files/Pods-kwonfacsrec/Pods-kwonfacsrec.release.xcconfig"; sourceTree = "<group>"; };
 		E0A17D3521C0D5A1007D8B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
+		E0A17D3721C0DF59007D8B50 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		E0E4958121C0B31500AF6954 /* kwonfacsrec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kwonfacsrec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E4958421C0B31500AF6954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0E4958621C0B31500AF6954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0E4958921C0B31500AF6954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0E4958B21C0B31600AF6954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E0E4958E21C0B31600AF6954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E4959021C0B31600AF6954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0E4959D21C0D15200AF6954 /* FaceOcclusionOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceOcclusionOverlay.swift; sourceTree = "<group>"; };
 		E0E4959E21C0D15200AF6954 /* DefaultFaceMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFaceMask.swift; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 		E0E495C721C0D1A600AF6954 /* JKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKColor.swift; sourceTree = "<group>"; };
 		E0E495D521C0D1B600AF6954 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		E0E495D621C0D1B600AF6954 /* FaceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceData.swift; sourceTree = "<group>"; };
+		E0F2E03221C0DFB00089850F /* VideoTexturedFace.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VideoTexturedFace.shader; sourceTree = "<group>"; };
 		FA91A9C0C00EDF5CDF91AB41 /* Pods-kwonfacsrec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kwonfacsrec.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kwonfacsrec/Pods-kwonfacsrec.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,14 +124,13 @@
 		E0E4957821C0B31500AF6954 = {
 			isa = PBXGroup;
 			children = (
-				E0E4959C21C0B3F700AF6954 /* Overlay Content */,
-				E0E4959B21C0B3CB00AF6954 /* Controller */,
-				E0E4959A21C0B3A700AF6954 /* Resources */,
-				E0E4959921C0B39B00AF6954 /* View */,
 				E0E4959821C0B39000AF6954 /* Model */,
-				E0E4959721C0B38600AF6954 /* Utils */,
 				E0E4959621C0B37B00AF6954 /* UI */,
-				E0E4958321C0B31500AF6954 /* kwonfacsrec */,
+				E0E4959921C0B39B00AF6954 /* View */,
+				E0E4959B21C0B3CB00AF6954 /* Controller */,
+				E0E4959C21C0B3F700AF6954 /* Overlay Content */,
+				E0E4959A21C0B3A700AF6954 /* Resources */,
+				E0E4959721C0B38600AF6954 /* Utils */,
 				E0E4958221C0B31500AF6954 /* Products */,
 				4A148F1C24970F9A718CBBDD /* Pods */,
 				DAAF5EB022FDDDE329950CF7 /* Frameworks */,
@@ -142,13 +143,6 @@
 				E0E4958121C0B31500AF6954 /* kwonfacsrec.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E0E4958321C0B31500AF6954 /* kwonfacsrec */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = kwonfacsrec;
 			sourceTree = "<group>";
 		};
 		E0E4959621C0B37B00AF6954 /* UI */ = {
@@ -195,7 +189,6 @@
 			children = (
 				E0E4958821C0B31500AF6954 /* Main.storyboard */,
 				E0A17D3421C0D5A1007D8B50 /* Splash.storyboard */,
-				E0E4958D21C0B31600AF6954 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -204,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				E0E4958B21C0B31600AF6954 /* Assets.xcassets */,
+				E0A17D3721C0DF59007D8B50 /* Models.scnassets */,
+				E0F2E03221C0DFB00089850F /* VideoTexturedFace.shader */,
 				E0E4959021C0B31600AF6954 /* Info.plist */,
 			);
 			path = Resources;
@@ -297,9 +292,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0E4958F21C0B31600AF6954 /* LaunchScreen.storyboard in Resources */,
+				E0F2E03321C0DFB00089850F /* VideoTexturedFace.shader in Resources */,
 				E0E4958C21C0B31600AF6954 /* Assets.xcassets in Resources */,
 				E0E4958A21C0B31500AF6954 /* Main.storyboard in Resources */,
+				E0A17D3821C0DF5A007D8B50 /* Models.scnassets in Resources */,
 				E0A17D3621C0D5A1007D8B50 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,14 +406,6 @@
 				E0E4958921C0B31500AF6954 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E0E4958D21C0B31600AF6954 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0E4958E21C0B31600AF6954 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

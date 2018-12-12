@@ -13,7 +13,7 @@
         <!--File Name View Controller-->
         <scene sceneID="OcG-kM-EUc">
             <objects>
-                <viewController storyboardIdentifier="FileNameView" id="GBi-O1-Wpr" customClass="FileNameViewController" customModule="FACS_Recorder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FileNameView" id="GBi-O1-Wpr" customClass="FileNameViewController" customModule="kwonfacsrec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m7j-Y7-MSJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
         <!--Record View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="RecordViewController" customModule="FACS_Recorder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BV1-FR-VrT" customClass="RecordViewController" customModule="kwonfacsrec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RLh-bf-1c3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -73,7 +73,7 @@
         <!--Result View Controller-->
         <scene sceneID="t9O-um-8Gy">
             <objects>
-                <viewController storyboardIdentifier="resultMessage" id="q6d-4e-HRL" customClass="ResultViewController" customModule="FACS_Recorder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="resultMessage" id="q6d-4e-HRL" customClass="ResultViewController" customModule="kwonfacsrec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UBq-f4-QvE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -169,7 +169,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mD-wL-hNI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1398" y="98"/>
+            <point key="canvasLocation" x="1198" y="98"/>
         </scene>
         <!--Unsupported View Controller-->
         <scene sceneID="QPm-sc-AhW">
@@ -215,7 +215,7 @@ Shipping apps must support devices without face tracking. In your app, offer UI 
         <!--Calibrate View Controller-->
         <scene sceneID="isW-vI-Hi5">
             <objects>
-                <viewController storyboardIdentifier="CalibratedResult" id="5DV-fQ-VE3" customClass="CalibrateViewController" customModule="FACS_Recorder" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CalibratedResult" id="5DV-fQ-VE3" customClass="CalibrateViewController" customModule="kwonfacsrec" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w5S-qy-exz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
