@@ -7,14 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07B69EACEE5B05D69FE4C07E /* Pods_kwonfacsrec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45F33BC597AF166CB71BAC9 /* Pods_kwonfacsrec.framework */; };
+		E0A17D3621C0D5A1007D8B50 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A17D3421C0D5A1007D8B50 /* Splash.storyboard */; };
 		E0E4958521C0B31500AF6954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4958421C0B31500AF6954 /* AppDelegate.swift */; };
 		E0E4958721C0B31500AF6954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4958621C0B31500AF6954 /* ViewController.swift */; };
 		E0E4958A21C0B31500AF6954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E4958821C0B31500AF6954 /* Main.storyboard */; };
 		E0E4958C21C0B31600AF6954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E4958B21C0B31600AF6954 /* Assets.xcassets */; };
 		E0E4958F21C0B31600AF6954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E4958D21C0B31600AF6954 /* LaunchScreen.storyboard */; };
+		E0E495A421C0D15200AF6954 /* FaceOcclusionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4959D21C0D15200AF6954 /* FaceOcclusionOverlay.swift */; };
+		E0E495A521C0D15200AF6954 /* DefaultFaceMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4959E21C0D15200AF6954 /* DefaultFaceMask.swift */; };
+		E0E495A621C0D15200AF6954 /* BlendShapeCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4959F21C0D15200AF6954 /* BlendShapeCharacter.swift */; };
+		E0E495A721C0D15200AF6954 /* TexturedFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495A021C0D15200AF6954 /* TexturedFace.swift */; };
+		E0E495A821C0D15200AF6954 /* VirtualContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495A121C0D15200AF6954 /* VirtualContent.swift */; };
+		E0E495A921C0D15200AF6954 /* TransformVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495A221C0D15200AF6954 /* TransformVisualization.swift */; };
+		E0E495AA21C0D15200AF6954 /* VideoTexturedFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495A321C0D15200AF6954 /* VideoTexturedFace.swift */; };
+		E0E495B021C0D16E00AF6954 /* FileNameViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495AB21C0D16D00AF6954 /* FileNameViewExtension.swift */; };
+		E0E495B121C0D16E00AF6954 /* CalibrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495AC21C0D16D00AF6954 /* CalibrateViewController.swift */; };
+		E0E495B221C0D16E00AF6954 /* FileNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495AD21C0D16E00AF6954 /* FileNameViewController.swift */; };
+		E0E495B321C0D16E00AF6954 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495AE21C0D16E00AF6954 /* RecordViewController.swift */; };
+		E0E495B421C0D16E00AF6954 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495AF21C0D16E00AF6954 /* ResultViewController.swift */; };
+		E0E495B821C0D19300AF6954 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495B521C0D19300AF6954 /* Constants.swift */; };
+		E0E495B921C0D19300AF6954 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495B621C0D19300AF6954 /* Utilities.swift */; };
+		E0E495BA21C0D19300AF6954 /* AssetWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495B721C0D19300AF6954 /* AssetWriter.swift */; };
+		E0E495C821C0D1A600AF6954 /* JKIncrementButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495BB21C0D1A600AF6954 /* JKIncrementButton.swift */; };
+		E0E495C921C0D1A600AF6954 /* JKPopupMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495BC21C0D1A600AF6954 /* JKPopupMenu.swift */; };
+		E0E495CA21C0D1A600AF6954 /* JKTimecodeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495BD21C0D1A600AF6954 /* JKTimecodeLabel.swift */; };
+		E0E495CB21C0D1A600AF6954 /* JKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495BE21C0D1A600AF6954 /* JKLabel.swift */; };
+		E0E495CC21C0D1A600AF6954 /* JKActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495BF21C0D1A600AF6954 /* JKActivityIndicator.swift */; };
+		E0E495CD21C0D1A600AF6954 /* JKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495C021C0D1A600AF6954 /* JKView.swift */; };
+		E0E495CE21C0D1A600AF6954 /* JKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495C121C0D1A600AF6954 /* JKTextField.swift */; };
+		E0E495CF21C0D1A600AF6954 /* JKStackColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495C221C0D1A600AF6954 /* JKStackColumn.swift */; };
+		E0E495D021C0D1A600AF6954 /* JKImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495C321C0D1A600AF6954 /* JKImageButton.swift */; };
+		E0E495D121C0D1A600AF6954 /* JKStackRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495C421C0D1A600AF6954 /* JKStackRow.swift */; };
+		E0E495D221C0D1A600AF6954 /* JKSwitchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495C521C0D1A600AF6954 /* JKSwitchButton.swift */; };
+		E0E495D321C0D1A600AF6954 /* JKGotoRecButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495C621C0D1A600AF6954 /* JKGotoRecButton.swift */; };
+		E0E495D421C0D1A600AF6954 /* JKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495C721C0D1A600AF6954 /* JKColor.swift */; };
+		E0E495D721C0D1B600AF6954 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495D521C0D1B600AF6954 /* UserData.swift */; };
+		E0E495D821C0D1B600AF6954 /* FaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E495D621C0D1B600AF6954 /* FaceData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A45F33BC597AF166CB71BAC9 /* Pods_kwonfacsrec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kwonfacsrec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9ACC97F7B4CD048108A597A /* Pods-kwonfacsrec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kwonfacsrec.release.xcconfig"; path = "Pods/Target Support Files/Pods-kwonfacsrec/Pods-kwonfacsrec.release.xcconfig"; sourceTree = "<group>"; };
+		E0A17D3521C0D5A1007D8B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Splash.storyboard; sourceTree = "<group>"; };
 		E0E4958121C0B31500AF6954 /* kwonfacsrec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kwonfacsrec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E4958421C0B31500AF6954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0E4958621C0B31500AF6954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +57,37 @@
 		E0E4958B21C0B31600AF6954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E4958E21C0B31600AF6954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0E4959021C0B31600AF6954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0E4959D21C0D15200AF6954 /* FaceOcclusionOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceOcclusionOverlay.swift; sourceTree = "<group>"; };
+		E0E4959E21C0D15200AF6954 /* DefaultFaceMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFaceMask.swift; sourceTree = "<group>"; };
+		E0E4959F21C0D15200AF6954 /* BlendShapeCharacter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlendShapeCharacter.swift; sourceTree = "<group>"; };
+		E0E495A021C0D15200AF6954 /* TexturedFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TexturedFace.swift; sourceTree = "<group>"; };
+		E0E495A121C0D15200AF6954 /* VirtualContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualContent.swift; sourceTree = "<group>"; };
+		E0E495A221C0D15200AF6954 /* TransformVisualization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformVisualization.swift; sourceTree = "<group>"; };
+		E0E495A321C0D15200AF6954 /* VideoTexturedFace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTexturedFace.swift; sourceTree = "<group>"; };
+		E0E495AB21C0D16D00AF6954 /* FileNameViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNameViewExtension.swift; sourceTree = "<group>"; };
+		E0E495AC21C0D16D00AF6954 /* CalibrateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalibrateViewController.swift; sourceTree = "<group>"; };
+		E0E495AD21C0D16E00AF6954 /* FileNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNameViewController.swift; sourceTree = "<group>"; };
+		E0E495AE21C0D16E00AF6954 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		E0E495AF21C0D16E00AF6954 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		E0E495B521C0D19300AF6954 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E0E495B621C0D19300AF6954 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E0E495B721C0D19300AF6954 /* AssetWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetWriter.swift; sourceTree = "<group>"; };
+		E0E495BB21C0D1A600AF6954 /* JKIncrementButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKIncrementButton.swift; sourceTree = "<group>"; };
+		E0E495BC21C0D1A600AF6954 /* JKPopupMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKPopupMenu.swift; sourceTree = "<group>"; };
+		E0E495BD21C0D1A600AF6954 /* JKTimecodeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKTimecodeLabel.swift; sourceTree = "<group>"; };
+		E0E495BE21C0D1A600AF6954 /* JKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKLabel.swift; sourceTree = "<group>"; };
+		E0E495BF21C0D1A600AF6954 /* JKActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKActivityIndicator.swift; sourceTree = "<group>"; };
+		E0E495C021C0D1A600AF6954 /* JKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKView.swift; sourceTree = "<group>"; };
+		E0E495C121C0D1A600AF6954 /* JKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKTextField.swift; sourceTree = "<group>"; };
+		E0E495C221C0D1A600AF6954 /* JKStackColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKStackColumn.swift; sourceTree = "<group>"; };
+		E0E495C321C0D1A600AF6954 /* JKImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKImageButton.swift; sourceTree = "<group>"; };
+		E0E495C421C0D1A600AF6954 /* JKStackRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKStackRow.swift; sourceTree = "<group>"; };
+		E0E495C521C0D1A600AF6954 /* JKSwitchButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKSwitchButton.swift; sourceTree = "<group>"; };
+		E0E495C621C0D1A600AF6954 /* JKGotoRecButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKGotoRecButton.swift; sourceTree = "<group>"; };
+		E0E495C721C0D1A600AF6954 /* JKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKColor.swift; sourceTree = "<group>"; };
+		E0E495D521C0D1B600AF6954 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		E0E495D621C0D1B600AF6954 /* FaceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceData.swift; sourceTree = "<group>"; };
+		FA91A9C0C00EDF5CDF91AB41 /* Pods-kwonfacsrec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kwonfacsrec.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kwonfacsrec/Pods-kwonfacsrec.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +95,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B69EACEE5B05D69FE4C07E /* Pods_kwonfacsrec.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A148F1C24970F9A718CBBDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA91A9C0C00EDF5CDF91AB41 /* Pods-kwonfacsrec.debug.xcconfig */,
+				B9ACC97F7B4CD048108A597A /* Pods-kwonfacsrec.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAAF5EB022FDDDE329950CF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A45F33BC597AF166CB71BAC9 /* Pods_kwonfacsrec.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E0E4957821C0B31500AF6954 = {
 			isa = PBXGroup;
 			children = (
+				E0E4959C21C0B3F700AF6954 /* Overlay Content */,
+				E0E4959B21C0B3CB00AF6954 /* Controller */,
+				E0E4959A21C0B3A700AF6954 /* Resources */,
+				E0E4959921C0B39B00AF6954 /* View */,
+				E0E4959821C0B39000AF6954 /* Model */,
+				E0E4959721C0B38600AF6954 /* Utils */,
+				E0E4959621C0B37B00AF6954 /* UI */,
 				E0E4958321C0B31500AF6954 /* kwonfacsrec */,
 				E0E4958221C0B31500AF6954 /* Products */,
+				4A148F1C24970F9A718CBBDD /* Pods */,
+				DAAF5EB022FDDDE329950CF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +147,94 @@
 		E0E4958321C0B31500AF6954 /* kwonfacsrec */ = {
 			isa = PBXGroup;
 			children = (
-				E0E4958421C0B31500AF6954 /* AppDelegate.swift */,
-				E0E4958621C0B31500AF6954 /* ViewController.swift */,
-				E0E4958821C0B31500AF6954 /* Main.storyboard */,
-				E0E4958B21C0B31600AF6954 /* Assets.xcassets */,
-				E0E4958D21C0B31600AF6954 /* LaunchScreen.storyboard */,
-				E0E4959021C0B31600AF6954 /* Info.plist */,
 			);
 			path = kwonfacsrec;
+			sourceTree = "<group>";
+		};
+		E0E4959621C0B37B00AF6954 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E0E495BF21C0D1A600AF6954 /* JKActivityIndicator.swift */,
+				E0E495C721C0D1A600AF6954 /* JKColor.swift */,
+				E0E495C621C0D1A600AF6954 /* JKGotoRecButton.swift */,
+				E0E495C321C0D1A600AF6954 /* JKImageButton.swift */,
+				E0E495BB21C0D1A600AF6954 /* JKIncrementButton.swift */,
+				E0E495BE21C0D1A600AF6954 /* JKLabel.swift */,
+				E0E495BC21C0D1A600AF6954 /* JKPopupMenu.swift */,
+				E0E495C221C0D1A600AF6954 /* JKStackColumn.swift */,
+				E0E495C421C0D1A600AF6954 /* JKStackRow.swift */,
+				E0E495C521C0D1A600AF6954 /* JKSwitchButton.swift */,
+				E0E495C121C0D1A600AF6954 /* JKTextField.swift */,
+				E0E495BD21C0D1A600AF6954 /* JKTimecodeLabel.swift */,
+				E0E495C021C0D1A600AF6954 /* JKView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E0E4959721C0B38600AF6954 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E0E495B721C0D19300AF6954 /* AssetWriter.swift */,
+				E0E495B521C0D19300AF6954 /* Constants.swift */,
+				E0E495B621C0D19300AF6954 /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E0E4959821C0B39000AF6954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0E495D621C0D1B600AF6954 /* FaceData.swift */,
+				E0E495D521C0D1B600AF6954 /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0E4959921C0B39B00AF6954 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4958821C0B31500AF6954 /* Main.storyboard */,
+				E0A17D3421C0D5A1007D8B50 /* Splash.storyboard */,
+				E0E4958D21C0B31600AF6954 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0E4959A21C0B3A700AF6954 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4958B21C0B31600AF6954 /* Assets.xcassets */,
+				E0E4959021C0B31600AF6954 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E0E4959B21C0B3CB00AF6954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4958421C0B31500AF6954 /* AppDelegate.swift */,
+				E0E495AC21C0D16D00AF6954 /* CalibrateViewController.swift */,
+				E0E495AD21C0D16E00AF6954 /* FileNameViewController.swift */,
+				E0E495AB21C0D16D00AF6954 /* FileNameViewExtension.swift */,
+				E0E495AE21C0D16E00AF6954 /* RecordViewController.swift */,
+				E0E495AF21C0D16E00AF6954 /* ResultViewController.swift */,
+				E0E4958621C0B31500AF6954 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0E4959C21C0B3F700AF6954 /* Overlay Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4959F21C0D15200AF6954 /* BlendShapeCharacter.swift */,
+				E0E4959E21C0D15200AF6954 /* DefaultFaceMask.swift */,
+				E0E4959D21C0D15200AF6954 /* FaceOcclusionOverlay.swift */,
+				E0E495A021C0D15200AF6954 /* TexturedFace.swift */,
+				E0E495A221C0D15200AF6954 /* TransformVisualization.swift */,
+				E0E495A321C0D15200AF6954 /* VideoTexturedFace.swift */,
+				E0E495A121C0D15200AF6954 /* VirtualContent.swift */,
+			);
+			path = "Overlay Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0E4959321C0B31600AF6954 /* Build configuration list for PBXNativeTarget "kwonfacsrec" */;
 			buildPhases = (
+				294000E8E2EEEB2DE487D72C /* [CP] Check Pods Manifest.lock */,
 				E0E4957D21C0B31500AF6954 /* Sources */,
 				E0E4957E21C0B31500AF6954 /* Frameworks */,
 				E0E4957F21C0B31500AF6954 /* Resources */,
+				0B213811EF0FD19A68B6BA1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,24 +300,110 @@
 				E0E4958F21C0B31600AF6954 /* LaunchScreen.storyboard in Resources */,
 				E0E4958C21C0B31600AF6954 /* Assets.xcassets in Resources */,
 				E0E4958A21C0B31500AF6954 /* Main.storyboard in Resources */,
+				E0A17D3621C0D5A1007D8B50 /* Splash.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B213811EF0FD19A68B6BA1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kwonfacsrec/Pods-kwonfacsrec-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AEXML/AEXML.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AEXML.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kwonfacsrec/Pods-kwonfacsrec-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		294000E8E2EEEB2DE487D72C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kwonfacsrec-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0E4957D21C0B31500AF6954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0E495A621C0D15200AF6954 /* BlendShapeCharacter.swift in Sources */,
+				E0E495CC21C0D1A600AF6954 /* JKActivityIndicator.swift in Sources */,
+				E0E495A521C0D15200AF6954 /* DefaultFaceMask.swift in Sources */,
 				E0E4958721C0B31500AF6954 /* ViewController.swift in Sources */,
+				E0E495D121C0D1A600AF6954 /* JKStackRow.swift in Sources */,
+				E0E495CD21C0D1A600AF6954 /* JKView.swift in Sources */,
+				E0E495B121C0D16E00AF6954 /* CalibrateViewController.swift in Sources */,
+				E0E495A421C0D15200AF6954 /* FaceOcclusionOverlay.swift in Sources */,
+				E0E495B821C0D19300AF6954 /* Constants.swift in Sources */,
+				E0E495D321C0D1A600AF6954 /* JKGotoRecButton.swift in Sources */,
+				E0E495C921C0D1A600AF6954 /* JKPopupMenu.swift in Sources */,
+				E0E495D221C0D1A600AF6954 /* JKSwitchButton.swift in Sources */,
+				E0E495B921C0D19300AF6954 /* Utilities.swift in Sources */,
+				E0E495CE21C0D1A600AF6954 /* JKTextField.swift in Sources */,
+				E0E495D421C0D1A600AF6954 /* JKColor.swift in Sources */,
+				E0E495AA21C0D15200AF6954 /* VideoTexturedFace.swift in Sources */,
+				E0E495C821C0D1A600AF6954 /* JKIncrementButton.swift in Sources */,
+				E0E495B021C0D16E00AF6954 /* FileNameViewExtension.swift in Sources */,
+				E0E495D821C0D1B600AF6954 /* FaceData.swift in Sources */,
+				E0E495D021C0D1A600AF6954 /* JKImageButton.swift in Sources */,
+				E0E495D721C0D1B600AF6954 /* UserData.swift in Sources */,
+				E0E495B221C0D16E00AF6954 /* FileNameViewController.swift in Sources */,
 				E0E4958521C0B31500AF6954 /* AppDelegate.swift in Sources */,
+				E0E495B421C0D16E00AF6954 /* ResultViewController.swift in Sources */,
+				E0E495A921C0D15200AF6954 /* TransformVisualization.swift in Sources */,
+				E0E495B321C0D16E00AF6954 /* RecordViewController.swift in Sources */,
+				E0E495A721C0D15200AF6954 /* TexturedFace.swift in Sources */,
+				E0E495CF21C0D1A600AF6954 /* JKStackColumn.swift in Sources */,
+				E0E495CB21C0D1A600AF6954 /* JKLabel.swift in Sources */,
+				E0E495BA21C0D19300AF6954 /* AssetWriter.swift in Sources */,
+				E0E495A821C0D15200AF6954 /* VirtualContent.swift in Sources */,
+				E0E495CA21C0D1A600AF6954 /* JKTimecodeLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		E0A17D3421C0D5A1007D8B50 /* Splash.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0A17D3521C0D5A1007D8B50 /* Base */,
+			);
+			name = Splash.storyboard;
+			sourceTree = "<group>";
+		};
 		E0E4958821C0B31500AF6954 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,8 +541,10 @@
 		};
 		E0E4959421C0B31600AF6954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA91A9C0C00EDF5CDF91AB41 /* Pods-kwonfacsrec.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 763Z237VG9;
 				INFOPLIST_FILE = kwonfacsrec/Info.plist;
@@ -298,8 +561,10 @@
 		};
 		E0E4959521C0B31600AF6954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9ACC97F7B4CD048108A597A /* Pods-kwonfacsrec.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 763Z237VG9;
 				INFOPLIST_FILE = kwonfacsrec/Info.plist;

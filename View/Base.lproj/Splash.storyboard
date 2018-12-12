@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="EOQ-Qi-CbH">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gS5-py-nxu">
+            <objects>
+                <viewController storyboardIdentifier="SplashView" id="EOQ-Qi-CbH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a5T-tW-ngz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenBG" translatesAutoresizingMaskIntoConstraints="NO" id="ElL-Fl-VfI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FACS Recorder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCv-wy-TVS">
+                                <rect key="frame" x="74.666666666666686" y="388" width="226" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="dYZ-Ds-eYc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="k2X-0W-bCw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="226" id="mhh-tC-uSC"/>
+                                    <constraint firstAttribute="width" constant="226" id="tib-YF-hp9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCUS  R&amp;D CENTER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyM-t0-Hkq" userLabel="Corp">
+                                <rect key="frame" x="84.666666666666686" y="224" width="206" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="textColor" red="0.88485483899999995" green="0.91293755269999999" blue="0.93485915490000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRESENTS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G8f-2K-KRn" userLabel="Presents">
+                                <rect key="frame" x="144" y="278" width="86" height="20"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
+                                <color key="textColor" red="0.88485483899999995" green="0.91293755269999999" blue="0.93485915490000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PyM-t0-Hkq" firstAttribute="centerX" secondItem="E9F-6B-J9A" secondAttribute="centerX" id="2hT-ek-73p"/>
+                            <constraint firstItem="ElL-Fl-VfI" firstAttribute="bottom" secondItem="E9F-6B-J9A" secondAttribute="bottom" constant="34" id="9GB-xo-My9"/>
+                            <constraint firstItem="QCv-wy-TVS" firstAttribute="centerY" secondItem="a5T-tW-ngz" secondAttribute="centerY" id="BTr-E7-Y13"/>
+                            <constraint firstItem="PyM-t0-Hkq" firstAttribute="top" secondItem="E9F-6B-J9A" secondAttribute="top" constant="180" id="Kt6-qt-DTm"/>
+                            <constraint firstItem="QCv-wy-TVS" firstAttribute="centerX" secondItem="a5T-tW-ngz" secondAttribute="centerX" id="LPE-Bb-Bkk"/>
+                            <constraint firstItem="ElL-Fl-VfI" firstAttribute="leading" secondItem="E9F-6B-J9A" secondAttribute="leading" id="Mub-9n-mDB"/>
+                            <constraint firstItem="E9F-6B-J9A" firstAttribute="trailing" secondItem="ElL-Fl-VfI" secondAttribute="trailing" id="SeE-qN-M8N"/>
+                            <constraint firstItem="G8f-2K-KRn" firstAttribute="top" secondItem="E9F-6B-J9A" secondAttribute="top" constant="234" id="gdV-v1-wRq"/>
+                            <constraint firstItem="G8f-2K-KRn" firstAttribute="centerX" secondItem="ElL-Fl-VfI" secondAttribute="centerX" id="rMy-5a-eW1"/>
+                            <constraint firstItem="E9F-6B-J9A" firstAttribute="top" secondItem="ElL-Fl-VfI" secondAttribute="top" constant="44" id="xd7-GV-bdO"/>
+                            <constraint firstItem="E9F-6B-J9A" firstAttribute="top" secondItem="PyM-t0-Hkq" secondAttribute="bottom" constant="-204" id="zNM-hg-ylx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="E9F-6B-J9A"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BuX-UH-nbh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15.199999999999999" y="140.39408866995075"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreenBG" width="1125" height="2436"/>
+    </resources>
+</document>
