@@ -11,7 +11,6 @@
 		E0A17D3621C0D5A1007D8B50 /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A17D3421C0D5A1007D8B50 /* Splash.storyboard */; };
 		E0A17D3821C0DF5A007D8B50 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A17D3721C0DF59007D8B50 /* Models.scnassets */; };
 		E0E4958521C0B31500AF6954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4958421C0B31500AF6954 /* AppDelegate.swift */; };
-		E0E4958721C0B31500AF6954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4958621C0B31500AF6954 /* ViewController.swift */; };
 		E0E4958A21C0B31500AF6954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E4958821C0B31500AF6954 /* Main.storyboard */; };
 		E0E4958C21C0B31600AF6954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0E4958B21C0B31600AF6954 /* Assets.xcassets */; };
 		E0E495A421C0D15200AF6954 /* FaceOcclusionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4959D21C0D15200AF6954 /* FaceOcclusionOverlay.swift */; };
@@ -54,7 +53,6 @@
 		E0A17D3721C0DF59007D8B50 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		E0E4958121C0B31500AF6954 /* kwonfacsrec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kwonfacsrec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0E4958421C0B31500AF6954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0E4958621C0B31500AF6954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0E4958921C0B31500AF6954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0E4958B21C0B31600AF6954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0E4959021C0B31600AF6954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -213,7 +211,6 @@
 				E0E495AB21C0D16D00AF6954 /* FileNameViewExtension.swift */,
 				E0E495AE21C0D16E00AF6954 /* RecordViewController.swift */,
 				E0E495AF21C0D16E00AF6954 /* ResultViewController.swift */,
-				E0E4958621C0B31500AF6954 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -357,7 +354,6 @@
 				E0E495A621C0D15200AF6954 /* BlendShapeCharacter.swift in Sources */,
 				E0E495CC21C0D1A600AF6954 /* JKActivityIndicator.swift in Sources */,
 				E0E495A521C0D15200AF6954 /* DefaultFaceMask.swift in Sources */,
-				E0E4958721C0B31500AF6954 /* ViewController.swift in Sources */,
 				E0E495D121C0D1A600AF6954 /* JKStackRow.swift in Sources */,
 				E0E495CD21C0D1A600AF6954 /* JKView.swift in Sources */,
 				E0E495B121C0D16E00AF6954 /* CalibrateViewController.swift in Sources */,
