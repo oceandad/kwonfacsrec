@@ -37,6 +37,20 @@ class TexturedFace: NSObject, VirtualContentController {
             let faceAnchor = anchor as? ARFaceAnchor
             else { return }
         
+        // MARK: Record if asked
+        if gDoRecording && gCurrentTime > 0.0 {
+            //let facedata = FaceData(bsDict: faceAnchor.blendShapes, headMat: faceAnchor.transform, leftEyeMat: faceAnchor.leftEyeTransform, rightEyeMat: faceAnchor.rightEyeTransform,time: Date().timeIntervalSince1970)
+            let facedata = FaceData(bsDict: faceAnchor.blendShapes, headMat: faceAnchor.transform, leftEyeMat: faceAnchor.leftEyeTransform, rightEyeMat: faceAnchor.rightEyeTransform,time: gCurrentTime)
+            gFaceDataBank.elems.append(facedata)
+        }
+            // MARK: Calibrate if asked
+        else if gDoCalibrate {
+            DispatchQueue.main.async {
+                gFaceCalibrated = FaceData(bsDict: faceAnchor.blendShapes, headMat: faceAnchor.transform, leftEyeMat: faceAnchor.leftEyeTransform, rightEyeMat: faceAnchor.rightEyeTransform,time: gCurrentTime)
+                gDoCalibrate = false
+            }
+        }
+        
         faceGeometry.update(from: faceAnchor.geometry)
     }
 

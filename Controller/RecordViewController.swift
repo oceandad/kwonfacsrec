@@ -187,11 +187,15 @@ class RecordViewController: UIViewController, ARSessionDelegate {
             "captruedFrameCount":capturedFrameCount.description,
             "capturedDataCount":capturedDataCount
             ])
-        // morph target list
+        // Morph target list
         let targetGroup = facialDataRoot.addChild(name:"morphTargetNames")
         for target in gTargetList{
             targetGroup.addChild(name: "target", attributes: ["name": target.rawValue])
         }
+        // Calibration data
+        let calibOffsets = getCalibratedDataString()
+        facialDataRoot.addChild(name:"calibrationData", attributes: ["offsets": calibOffsets])
+        
         // Iter each frame data
         let capturedData = facialDataRoot.addChild(name:"capturedData")
         for id in (0..<gFaceDataBank.elems.count){
@@ -211,6 +215,26 @@ class RecordViewController: UIViewController, ARSessionDelegate {
             print("Failed to write to URL")
             print(error)
         }
+    }
+    func getCalibratedDataString() -> String {
+        
+        var result: String = ""
+        if gFaceCalibrated != nil {
+            for (i, targetLocation) in gTargetList.enumerated(){
+                if var val = gFaceCalibrated.blendShape[targetLocation]?.doubleValue{
+                    if val < gSmallestValue{
+                        val = 0.000
+                    }
+                    let doubleStr = String(format: "%.3f", val)
+                    if i == 0{
+                        result = doubleStr
+                    }else{
+                        result += ","+doubleStr
+                    }
+                }
+            }
+        }
+        return result
     }
     // MARK: Properties
 

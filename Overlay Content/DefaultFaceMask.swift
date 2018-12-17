@@ -38,12 +38,14 @@ class DefaultFaceMask: NSObject, VirtualContentController {
         guard let faceGeometry = node.geometry as? ARSCNFaceGeometry,
             let faceAnchor = anchor as? ARFaceAnchor
             else { return }
-        // Record if asked
+        
+        // MARK: Record if asked
         if gDoRecording && gCurrentTime > 0.0 {
             //let facedata = FaceData(bsDict: faceAnchor.blendShapes, headMat: faceAnchor.transform, leftEyeMat: faceAnchor.leftEyeTransform, rightEyeMat: faceAnchor.rightEyeTransform,time: Date().timeIntervalSince1970)
             let facedata = FaceData(bsDict: faceAnchor.blendShapes, headMat: faceAnchor.transform, leftEyeMat: faceAnchor.leftEyeTransform, rightEyeMat: faceAnchor.rightEyeTransform,time: gCurrentTime)
             gFaceDataBank.elems.append(facedata)
         }
+            // MARK: Calibrate if asked
         else if gDoCalibrate {
             DispatchQueue.main.async {
                 gFaceCalibrated = FaceData(bsDict: faceAnchor.blendShapes, headMat: faceAnchor.transform, leftEyeMat: faceAnchor.leftEyeTransform, rightEyeMat: faceAnchor.rightEyeTransform,time: gCurrentTime)
